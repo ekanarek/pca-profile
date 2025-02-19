@@ -3,7 +3,8 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import './App.css'
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation/Navigation.jsx';
 import Home from './pages/Home/Home.jsx';
 import Interests from './pages/Interests/Interests.jsx';
