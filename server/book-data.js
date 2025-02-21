@@ -1,4 +1,4 @@
-// genres: fantasy, horror, literary fiction, science fiction, mystery, romance, thriller, nonfiction, historical fiction
+// Genres: Fantasy, Horror, Literary Fiction, Science Fiction, Mystery, Romance, Thriller, Nonfiction, Historical Fiction
 
 const BOOK_DATA = [
     {
