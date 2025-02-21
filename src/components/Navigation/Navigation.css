@@ -9,6 +9,6 @@
 }
 
 .nav-link {
-    color: #976972;
+    color: var(--accent-color);
     font-weight: bold;
 }

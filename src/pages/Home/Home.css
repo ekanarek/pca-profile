@@ -55,5 +55,5 @@ h1 {
 }
 
 .tags {
-    color: #976972;
+    color: var(--accent-color);
 }

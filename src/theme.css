@@ -1,0 +1,9 @@
+[data-theme="default"] {
+    --accent-color: #976972;
+    --background-image: url("src/assets/images/bg2.jpg")
+}
+
+[data-theme="birds"] {
+    --accent-color: #004c54;
+    --background-image: url("src/assets/images/bg3.jpg")
+}
