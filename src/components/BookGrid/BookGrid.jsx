@@ -1,5 +1,6 @@
 import './BookGrid.css';
 import {useState, useEffect} from "react";
+import Image from 'react-bootstrap/Image';
 
 function BookGrid({ bookData }) {
     const [books, setBooks] = useState([]);
@@ -12,7 +13,7 @@ function BookGrid({ bookData }) {
     }, []);
 
     const covers = bookData.map((book, title) => (
-        <img key={title} src={book.imgUrl} />
+        <Image key={title} src={book.imgUrl} className="cover" />
     ))
 
     return (
