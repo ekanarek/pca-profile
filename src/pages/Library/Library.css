@@ -1,1 +1,11 @@
-/* CSS SPECIFIC TO THE LIBRARY PAGE ONLY, NOT INCLUDING BOOK GRID + FILTERS STYLING */
+.library {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: var(--accent-color-2);
+    font-family: "Open Sans", serif;
+}

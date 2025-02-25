@@ -1,5 +1,3 @@
-// Genres: Fantasy, Horror, Literary Fiction, Science Fiction, Mystery, Romance, Thriller, Nonfiction, Historical Fiction
-
 const BOOK_DATA = [
     {
         title: "Anna Karenina",
