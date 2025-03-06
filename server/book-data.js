@@ -12,6 +12,12 @@ const BOOK_DATA = [
         imgUrl: "https://cdn.thestorygraph.com/3petfsct6oyrx1idupbl31ypbyzd"
     },
     {
+        title: "The Bear and the Nightingale",
+        author: "Katherine Arden",
+        genre: "Fantasy",
+        imgUrl: "https://cdn.thestorygraph.com/l5nlx919g4ivficxvjsovh2wrhsk"
+    },
+    {
         title: "Black Sun",
         author: "Rebecca Roanhorse",
         genre: "Fantasy",
@@ -22,6 +28,18 @@ const BOOK_DATA = [
         author: "M.L. Wang",
         genre: "Fantasy",
         imgUrl: "https://cdn.thestorygraph.com/x07v4x12kv0bg36udkfz6xl5rrsu"
+    },
+    {
+        title: "The Book Thief",
+        author: "Markus Zusak",
+        genre: "Historical Fiction",
+        imgUrl: "https://cdn.thestorygraph.com/z9erb41j5bo0dxw6e9bjsgmljacm"
+    },
+    {
+        title: "Circe",
+        author: "Madeline Miller",
+        genre: "Fantasy",
+        imgUrl: "https://cdn.thestorygraph.com/1l2asbnjsdzzby3j7mgv947wdp4o"
     },
     {
         title: "Cloud Cuckoo Land",
@@ -42,6 +60,18 @@ const BOOK_DATA = [
         imgUrl: "https://cdn.thestorygraph.com/hxxbzaes8t6s7npe5f8l3acxovee"
     },
     {
+        title: "A Darker Shade of Magic",
+        author: "V.E. Schwab",
+        genre: "Fantasy",
+        imgUrl: "https://cdn.thestorygraph.com/ah4sgajdpparrnf1cynuqywuavrr"
+    },
+    {
+        title: "Devotions",
+        author: "Mary Oliver",
+        genre: "Nonfiction",
+        imgUrl: "https://cdn.thestorygraph.com/2chfcpfsxvvizmptibpjs3dn6fp2"
+    },
+    {
         title: "Diavola",
         author: "Jennifer Thorne",
         genre: "Horror",
@@ -60,10 +90,28 @@ const BOOK_DATA = [
         imgUrl: "https://cdn.thestorygraph.com/8g7c8urgwvra70j9k7z0z1v7lbpm"
     },
     {
+        title: "Foundryside",
+        author: "Robert Jackson Bennet",
+        genre: "Fantasy",
+        imgUrl: "https://cdn.thestorygraph.com/i6d4r8m86cgzscbuumnzjw5tvmjv"
+    },
+    {
+        title: "Giovanni's Room",
+        author: "James Baldwin",
+        genre: "Classics",
+        imgUrl: "https://cdn.thestorygraph.com/zjxbawx2drlnlf7phbm8w0sh1oam"
+    },
+    {
         title: "The Grapes of Wrath",
         author: "John Steinbeck",
         genre: "Classics",
         imgUrl: "https://cdn.thestorygraph.com/oepc0mbpmb0kmbczikkdjadi2ctm"
+    },
+    {
+        title: "The Great Gatsby",
+        author: "F. Scott Fitzgerald",
+        genre: "Classics",
+        imgUrl: "https://cdn.thestorygraph.com/7a11q7l9gv5wn76y902lrv07mebu"
     },
     {
         title: "I Capture the Castle",
@@ -106,6 +154,12 @@ const BOOK_DATA = [
         author: "Fonda Lee",
         genre: "Fantasy",
         imgUrl: "https://cdn.thestorygraph.com/tiq4231zpdky543ykm3auam6rjnv"
+    },
+    {
+        title: "Juniper & Thorn",
+        author: "Ava Reid",
+        genre: "Horror",
+        imgUrl: "https://cdn.thestorygraph.com/7krdah16jacx46jgyapvc0xmnu5q"
     },
     {
         title: "The Justice of Kings",
@@ -156,16 +210,34 @@ const BOOK_DATA = [
         imgUrl: "https://cdn.thestorygraph.com/devmp8wvz6hhisoupjfgq9u8d4gc"
     },
     {
+        title: "Mexican Gothic",
+        author: "Silvia Moreno-Garcia",
+        genre: "Horror",
+        imgUrl: "https://cdn.thestorygraph.com/x9bi861q4mp24st8tj9bwblgknjh"
+    },
+    {
         title: "Miracle Creek",
         author: "Angie Kim",
         genre: "Mystery",
         imgUrl: "https://cdn.thestorygraph.com/0ui2ra5d3hlvdoh1zujy5ew9wkjj"
     },
     {
+        title: "Mistborn",
+        author: "Brandon Sanderson",
+        genre: "Fantasy",
+        imgUrl: "https://cdn.thestorygraph.com/uyanhiki92kh1h9gnaukbv19v59g"
+    },
+    {
         title: "Moon of the Crusted Snow",
         author: "Waubgeshig Rice",
         genre: "Thriller",
         imgUrl: "https://cdn.thestorygraph.com/f97rjfv5zr3zv4ojchifrnsqpsvr"
+    },
+    {
+        title: "My Grandmother Asked Me to Tell You She's Sorry",
+        author: "Fredrik Backman",
+        genre: "Literary Fiction",
+        imgUrl: "https://cdn.thestorygraph.com/u4g53w50744abr925i26b215yy7y"
     },
     {
         title: "Ninth House",
@@ -192,10 +264,22 @@ const BOOK_DATA = [
         imgUrl: "https://cdn.thestorygraph.com/tz55yenrtmknvxuotg8dlcpdv75k"
     },
     {
+        title: "The Poisonwood Bible",
+        author: "Barbara Kingsolver",
+        genre: "Historical Fiction",
+        imgUrl: "https://cdn.thestorygraph.com/mwyaxzbdibkvj23wmqlalcowpzww"
+    },
+    {
         title: "The Poppy War",
         author: "R.F. Kuang",
         genre: "Fantasy",
         imgUrl: "https://cdn.thestorygraph.com/rl0xfj7mjbiqrz8v93eatemj222y"
+    },
+    {
+        title: "The Power",
+        author: "Naomi Alderman",
+        genre: "Science Fiction",
+        imgUrl: "https://cdn.thestorygraph.com/lih8rwh4cz228gygg805eubi57k4"
     },
     {
         title: "The Push",
@@ -240,16 +324,52 @@ const BOOK_DATA = [
         imgUrl: "https://cdn.thestorygraph.com/ijf9qgi1x16nx8ry6v7lh8l6jo6t"
     },
     {
+        title: "Signal Fires",
+        author: "Dani Shapiro",
+        genre: "Literary Fiction",
+        imgUrl: "https://cdn.thestorygraph.com/ojm7vgxc7u0r5nlhise5gphc0o7m"
+    },
+    {
+        title: "Sisters of the Lost Nation",
+        author: "Nick Medina",
+        genre: "Thriller",
+        imgUrl: "https://cdn.thestorygraph.com/e5hfbw2y8zsizjnw8gdtd9f2xxg7"
+    },
+    {
         title: "The Stationery Shop",
         author: "Marjan Kamali",
         genre: "Historical Fiction",
         imgUrl: "https://cdn.thestorygraph.com/3hyd8hwil52b67qg10puxhqhzcor"
     },
     {
+        title: "Summer Sons",
+        author: "Lee Mandelo",
+        genre: "Horror",
+        imgUrl: "https://cdn.thestorygraph.com/oeptley0ketm5x1x1c9b5rbns5xv"
+    },
+    {
         title: "Tess of the D'Urbervilles",
         author: "Thomas Hardy",
         genre: "Classics",
         imgUrl: "https://cdn.thestorygraph.com/zcvoledlgqg52z8j9tl58fda1dki"
+    },
+    {
+        title: "Thistlefoot",
+        author: "GennaRose Nethercott",
+        genre: "Fantasy",
+        imgUrl: "https://cdn.thestorygraph.com/id0q918dcpszoywoi08n8onrw5de"
+    },
+    {
+        title: "A Thousand Splendid Suns",
+        author: "Khaled Hosseini",
+        genre: "Literary Fiction",
+        imgUrl: "https://cdn.thestorygraph.com/40p778ti6wyb4q3370kcue3xv5cv"
+    },
+    {
+        title: "Tomorrow, and Tomorrow, and Tomorrow",
+        author: "Gabrielle Zevin",
+        genre: "Literary Fiction",
+        imgUrl: "https://cdn.thestorygraph.com/wayoh6706s8ne2jo2swn5rlhpfl9"
     },
     {
         title: "Trumpet",
@@ -262,6 +382,12 @@ const BOOK_DATA = [
         author: "Isabel Cañas",
         genre: "Horror",
         imgUrl: "https://cdn.thestorygraph.com/6jrkp615zsthkehb3ll05odn0t1p"
+    },
+    {
+        title: "Vicious",
+        author: "V.E. Schwab",
+        genre: "Science Fiction",
+        imgUrl: "https://cdn.thestorygraph.com/n7pn5wu1cl4i4qc3l45x94u8gopn"
     },
     {
         title: "The Way of Kings",
@@ -282,6 +408,12 @@ const BOOK_DATA = [
         imgUrl: "https://cdn.thestorygraph.com/ijc8ak2yomsxys4zr84d91oi7l4i"
     },
     {
+        title: "When We Were Sisters",
+        author: "Fatimah Asghar",
+        genre: "Literary Fiction",
+        imgUrl: "https://cdn.thestorygraph.com/i3afzyfvx9osddtfr95q37kwklg7"
+    },
+    {
         title: "The Will of the Many",
         author: "James Islington",
         genre: "Fantasy",
@@ -298,6 +430,12 @@ const BOOK_DATA = [
         author: "Lee Mandelo",
         genre: "Horror",
         imgUrl: "https://cdn.thestorygraph.com/xfjl9t4f52ee4coh7rleok741vqy"
+    },
+    {
+        title: "Yumi and the Nightmare Painter",
+        author: "Brandon Sanderson",
+        genre: "Fantasy",
+        imgUrl: "https://cdn.thestorygraph.com/wrr1yvc2xaeh8fv91p8yl2gttuo8"
     },
 ]
 
