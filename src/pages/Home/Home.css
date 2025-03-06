@@ -1,59 +1,59 @@
-h1, p {
-    text-align:left;
+h1,
+p {
+  text-align: left;
 }
 
 h1 {
-    font-family: "Open Sans", serif;
-    font-weight: 700;
+  font-family: "Open Sans", serif;
+  font-weight: 700;
 }
 
 .home-left {
-    padding-top: 10%;
+  padding-top: 10%;
 }
 
 .home-right {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-img {
-    max-width: 300px;
-    position: relative;
-    z-index: 1;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
+  max-width: 300px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
 }
 
 .main-img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .accent-img {
-    max-width: 200px;
-    opacity: 0.5;
-    position: absolute;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    z-index: -1;
-
+  max-width: 200px;
+  opacity: 0.5;
+  position: absolute;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: -1;
 }
 
 .accent1 {
-    transform: translate(-20%, -20%);
+  transform: translate(-20%, -20%);
 }
 
 .accent2 {
-    transform: translate(-80%, 120%);
+  transform: translate(-80%, 120%);
 }
 
 .tags {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }

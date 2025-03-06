@@ -1,11 +1,11 @@
 [data-theme="default"] {
-    --accent-color: #976972;
-    --accent-color-2: #e0494a;
-    --background-image: url("src/assets/images/bg2.jpg")
+  --accent-color: #976972;
+  --accent-color-2: #e0494a;
+  --background-image: url("src/assets/images/bg2.jpg");
 }
 
 [data-theme="birds"] {
-    --accent-color: #004c54;
-    --accent-color-2: #eff7fb;
-    --background-image: url("src/assets/images/bg3.jpg")
+  --accent-color: #004c54;
+  --accent-color-2: #eff7fb;
+  --background-image: url("src/assets/images/bg3.jpg");
 }

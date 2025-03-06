@@ -3,7 +3,6 @@ import "./ThemeToggle.css";
 import Form from "react-bootstrap/Form";
 
 function ThemeToggle({ theme, toggleTheme }) {
-
   return (
     <Form>
       <Form.Check

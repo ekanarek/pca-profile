@@ -1,43 +1,44 @@
 .interests {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
 }
 
-h1, h3 {
-    color: var(--accent-color);
-    font-family: "Open Sans", serif;
+h1,
+h3 {
+  color: var(--accent-color);
+  font-family: "Open Sans", serif;
 }
 
 h3 {
-    font-size: 1.3em;
-    font-weight: 700;
-    text-align: left;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-align: left;
 }
 
 .interests-grid {
-    margin-top: 20px;
-    margin-left: 130px;
+  margin-top: 20px;
+  margin-left: 130px;
 }
 
 .interest-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .interest-icon {
-    max-width: 70px;
-    margin-top: -15px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
+  max-width: 70px;
+  margin-top: -15px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
 }
 
 .interest-icon:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .row {
-    margin-top: 30px;
+  margin-top: 30px;
 }
